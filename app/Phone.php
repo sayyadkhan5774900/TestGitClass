@@ -10,4 +10,6 @@ class Phone extends Model
 {
     use BelongsToTenant, HasFactory;
     //asdas
+    //sadaskljd
+    //asdljaslkd
 }
