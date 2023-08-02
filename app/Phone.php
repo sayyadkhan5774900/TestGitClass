@@ -9,4 +9,5 @@ use Illuminate\Database\Eloquent\Model;
 class Phone extends Model
 {
     use BelongsToTenant, HasFactory;
+    //asdas
 }

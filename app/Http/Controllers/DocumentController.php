@@ -10,7 +10,7 @@ class DocumentController extends Controller
 {
     public function show(User $user, $filename)
     {
-        // find the document from db
+        // find the document from db TEST
         $document = $user->documents()->where('filename', $filename)->get()->first();
         // authorise user making request
         if(! request()->user()->isAdmin()) {
