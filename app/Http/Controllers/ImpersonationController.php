@@ -13,7 +13,7 @@ class ImpersonationController extends Controller
         if(! session()->has('impersonate')) {
             abort(403);
         }
-        // login as the super user in session
+        // login as the super user in sessio asdas
         auth()->login(User::withoutGlobalScope(TenantScope::class)->find(session('impersonate')));
         session()->forget('impersonate');
 
